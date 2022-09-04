@@ -9,7 +9,7 @@ def index():
 
 @app.route('/sam')
 def sam():
-    name = input("Hey what is your name: ")
+    name = "Sam"
 
     return f"hello {name} how are you?"
 
